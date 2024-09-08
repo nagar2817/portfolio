@@ -1,8 +1,12 @@
 module.exports = {
-    siteMetadata: {
-      title: `Gatsby Project`,
-        siteUrl: `https://www.yourdomain.tld`,
-    },
+  siteMetadata: {
+    title: 'Rohit Nagar',
+    description:
+      'Rohit Nagar is Backend Software Engineer focused on DRF, Scalable and Robust System.',
+    siteUrl: 'https://github.com/nagar2817', // No trailing slash allowed!
+    image: '/og.jpeg', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@0xRohit_1',
+  },
     plugins: [
 
     ]

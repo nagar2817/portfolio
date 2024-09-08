@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import {styled} from 'styled-components';
 // import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
 
 const StyledMainContainer = styled.main`
@@ -34,3 +34,5 @@ const pageStyles = {
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 };
+
+export default IndexPage;
