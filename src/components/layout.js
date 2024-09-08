@@ -14,6 +14,7 @@ const StyledContent = styled.div`
 
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
+  // const isHome = false;
   const [isLoading, setIsLoading] = useState(isHome);
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
@@ -62,7 +63,7 @@ const Layout = ({ children, location }) => {
 
           {isLoading && isHome ? (
             // <Loader finishLoading={() => setIsLoading(false)} />
-            <>Hello</>
+            <>Rohit</>
           ) : (
             <StyledContent>
               <Nav isHome={isHome} />
