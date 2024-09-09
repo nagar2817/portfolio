@@ -150,6 +150,15 @@ const StyledLinks = styled.div`
   }
 `;
 
+const LogoName = styled.span`
+  font-family: "Agustina Regular", cursive; // Use the custom font with a fallback
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+  white-space: nowrap; // Ensure text stays on the same line
+`;
+
 const Nav = ({ isHome }) => {
   const [isMounted, setIsMounted] = useState(!isHome);
   const scrollDirection = useScrollDirection('down');
@@ -201,7 +210,10 @@ const Nav = ({ isHome }) => {
           <div className="logo-container">
             <IconLogo />
           </div> */}
-          Rohit
+          
+          <span className="grey-color"> &lt;</span>
+          <LogoName>Rohit</LogoName>
+          <span className="grey-color">/&gt;</span>
         </Link>
       )}
     </div>
