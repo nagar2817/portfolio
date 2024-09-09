@@ -21,7 +21,7 @@
     "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-offline": "^6.13.3",
     "gatsby-plugin-react-helmet": "^6.13.1",
-    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-robots-txt": "1.8.0",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-plugin-styled-components": "^6.13.1",
@@ -29,6 +29,7 @@
     "gatsby-remark-images": "^7.13.2",
     "gatsby-remark-prismjs": "^7.13.2",
     "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-json": "5.13.1",
     "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "lodash": "4.17.21",
@@ -43,7 +44,16 @@
   },
   "keywords": [],
   "devDependencies": {
+    "@babel/core": "7.25.2",
+    "@babel/eslint-parser": "7.25.1",
+    "@babel/preset-react": "7.24.7",
+    "@upstatement/eslint-config": "3.0.0",
+    "@upstatement/prettier-config": "1.1.0",
     "babel-preset-gatsby": "3.13.2",
+    "eslint": "9.10.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-jsx-a11y": "6.10.0",
+    "eslint-plugin-react": "7.35.2",
     "gatsby-remark-code-titles": "1.1.0"
   }
 }
