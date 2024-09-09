@@ -201,7 +201,7 @@ const Nav = ({ isHome }) => {
           <div className="logo-container">
             <IconLogo />
           </div> */}
-          Go to home
+          Rohit
         </Link>
       )}
     </div>
