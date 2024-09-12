@@ -7,7 +7,7 @@ android: 'https://play.google.com/store/apps/details?id=com.momsdemandaction.app
 tech:
   - React
   - Tailwind CSS
-  - Firebase Authentication
+  - Firebase
   - Firestore
   - Firebase Storage
 showInProjects: true
