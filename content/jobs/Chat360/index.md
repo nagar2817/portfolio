@@ -1,6 +1,6 @@
 ---
 date: '2024-06-30'
-title: 'Backend Software Engineer'
+title: 'Software Engineer'
 company: 'Chat360'
 location: 'Pune, India'
 range: 'December 2023 - June 2024'

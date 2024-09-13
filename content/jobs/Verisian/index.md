@@ -1,6 +1,6 @@
 ---
 date: '2024-07-31'
-title: 'Contractor (Backend Engineer)'
+title: 'Contractor (Software Engineer)'
 company: 'Verisian'
 location: 'Remote, UK'
 range: 'June - July 2024'
